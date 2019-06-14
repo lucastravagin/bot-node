@@ -11,9 +11,9 @@ node main.js // Run application
 
 ## Stack
 
-*Nodejs (ES2018) - Framework Restful (Restify)
-*MongoDB (ODM Mongoose)
-*
+* Nodejs (ES2018) - Framework Restful (Restify)
+* MongoDB (ODM Mongoose)
+
 
 ## API Design
 
