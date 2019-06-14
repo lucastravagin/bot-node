@@ -2,12 +2,27 @@
 API desenvolvida para troca de mensagens com usuário e bot do sistema. 
 
 ### Installing
-Baixar este repositório na sua máquina
+Baixar este repositório na sua máquina e rodar no terminal
 
 ```
 npm install
-node main.js
+node main.js // Run application
 ```
+
+## Stack
+
+*Nodejs (ES2018) - Framework Restful (Restify)
+*MongoDB (ODM Mongoose)
+*
+
+## API Design
+
+* A API foi desenvolvida utilizando o padrão Restful, com o auxílio do Framework Restify.
+* Habilitação do CORS na API
+* Mapeamento das Schemas dos Documentos com o Mongoose
+* Tratamento de erros com o Restify
+
+
 ## Code Review
 
 * **Arquivo Main** : Script responsável por manipular o método bootstrap da Classe Server e orientar a manipulação de erros
