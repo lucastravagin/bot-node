@@ -22,6 +22,55 @@ node main.js // Run application
 * Mapeamento das Schemas dos Documentos com o Mongoose
 * Tratamento de erros com o Restify
 
+## Resources
+
+* **/bot** : Gerencia as operações relacionadas ao bot.
+
+**GET http://localhost:3003/bots**
+
+Response
+
+```
+[
+    {
+        "_id": "5d03f92babc9fa1e50dc5221",
+        "name": "Atendente 1",
+        "__v": 0
+    }
+]
+````
+**POST http://localhost:3003/bots**
+
+Response
+
+```
+[
+    {
+        "_id": "5d03f92babc9fa1e50dc5221",
+        "name": "Atendente 1",
+        "__v": 0
+    }
+]
+````
+
+**PUT http://localhost:3003/bots/5d03f92babc9fa1e50dc5221 (id)**
+
+Request Body
+
+```
+Objeto que você vai alterar
+
+    {
+        "name": "Atendente 1"
+    }
+
+````
+
+**Delete http://localhost:3003/bots/5d03f92babc9fa1e50dc5221 (id)**
+
+Status Code: 204 (No Content)
+
+
 
 ## Code Review
 
